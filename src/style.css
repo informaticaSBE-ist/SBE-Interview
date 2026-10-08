@@ -1,0 +1,43 @@
+/* Global styles. Change the colors here to restyle the whole page. */
+:root {
+  --main: #0e8f7a;
+  --dark: #12332d;
+  --light: #f2faf8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--light);
+  color: var(--dark);
+}
+
+section {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: var(--main);
+}
+
+button {
+  background: white;
+  border: 2px solid var(--main);
+  color: var(--main);
+  border-radius: 20px;
+  padding: 8px 16px;
+  margin: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+button.active,
+button[type='submit'] {
+  background: var(--main);
+  color: white;
+}
