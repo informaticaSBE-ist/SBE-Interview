@@ -53,7 +53,7 @@ A entrega deve ser feita **até ao final do dia anterior à data da entrevista (
 
 1. Eliminar a pasta `node_modules` do projeto, caso exista.
 2. Comprimir a pasta do projeto num ficheiro ZIP, com o nome `Nome_Apelido.zip`.
-3. Enviar o ficheiro, indicando no email o nome, o curso e o ano.
+3. Enviar o ficheiro, indicando no email o nome, o curso e o ano, e uma descrição breve do que foi feito.
 
 ## Entrevista
 
